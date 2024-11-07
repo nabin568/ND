@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Game Link</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Do you want to play a game?</h1>
+    <button onclick="playGame()">Yes!</button>
+
+    <script>
+        function playGame() {
+            alert("Let’s start the game!");
+            // You can redirect to a game or add more functionality here
+        }
+    </script>
+</body>
+</html>
